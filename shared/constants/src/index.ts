@@ -1,0 +1,1 @@
+export { SomeConstant } from "./SomeConstant";

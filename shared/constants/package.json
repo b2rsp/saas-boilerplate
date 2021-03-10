@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "@repo/constants",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {},
+  "peerDependencies": {
+    "typescript": "*"
+  }
+}

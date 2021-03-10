@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "@repo/lib",
+  "version": "1.0.0",
+  "main": "dist/src/index",
+  "module": "src/index.ts",
+  "dependencies": {},
+  "peerDependencies": {
+    "typescript": "*"
+  }
+}

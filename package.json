@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "repo",
+  "workspaces": [
+    "apps/*",
+    "shared/*"
+  ],
+  "dependencies": {}
+}

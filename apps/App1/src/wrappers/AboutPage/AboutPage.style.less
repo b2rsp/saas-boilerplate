@@ -1,0 +1,109 @@
+@import "../../styles/variables.less";
+
+section.about-us {
+  padding-top: 100px;
+  background-color: #d7f0fa;
+  font-family: "Founders Grotesk", arial, sans-serif;
+  color: #28283c;
+
+  .header {
+    img {
+      height: 200px;
+      float: right;
+
+      @media all and (max-width: 767px) {
+        height: 240px;
+        float: left;
+      }
+    }
+
+    h2.title,
+    h1.title {
+      margin-top: 50px;
+      margin-bottom: 0;
+      font-size: 80px;
+      color: #faaa1e;
+      font-family: Founders Grotesk X-Condensed, Arial, sans-serif;
+      text-align: center;
+      text-transform: uppercase;
+
+      @media all and (max-width: 600px) {
+        font-size: 60px;
+        text-align: left;
+        margin-top: 40px;
+      }
+    }
+
+    h2.tagline {
+      margin: 0 auto;
+      padding-top: 20px;
+      font-size: 16px;
+      font-weight: 300;
+      color: white;
+      text-align: center;
+      max-width: 750px;
+
+      @media all and (max-width: 400px) {
+        font-size: 15px;
+      }
+    }
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 300;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Founders Grotesk Condensed, Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-weight: 400;
+  }
+
+  .classhosts {
+    @media all and (max-width: 767px) {
+      height: 280px;
+    }
+
+    h1.title {
+      text-align: left;
+    }
+
+    h2.tagline {
+      margin: 0;
+      text-align: left;
+      max-width: 400px;
+    }
+  }
+
+  .about-cards {
+    margin: 20px auto 0;
+
+    img {
+      width: 200px;
+      padding-bottom: 20px;
+    }
+
+    .card > img {
+      width: 100%;
+      background-color: transparent;
+
+      @media all and (max-width: 991px) {
+        padding: 15px 15px 65px 15px;
+      }
+    }
+  }
+
+  .homepage__share {
+    margin-top: 0px;
+  }
+}

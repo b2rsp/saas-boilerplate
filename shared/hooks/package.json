@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "@repo/hooks",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "typescript": "*"
+  }
+}

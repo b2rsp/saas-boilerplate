@@ -9,3 +9,5 @@ Boilerplate that i use to bootstrap apps
 [ ] - Prisma
 [ ] - React admin
 [ ] - Storybook
+[ ] - Add docker
+[ ] - Prepare for serverless

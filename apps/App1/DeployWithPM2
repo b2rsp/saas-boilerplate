@@ -1,0 +1,2 @@
+#needs to be executed inside the marketplace folder
+pm2 start --name "mighty" --max-memory-restart 1G --env production npm -- start
